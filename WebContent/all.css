@@ -1,0 +1,116 @@
+body {
+    font: 13px/15px Verdana, Arial, Helvetica, sans-serif;
+}
+hr {
+	height: 10px;
+	background-color: #CACACA;
+}
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidepic {
+	width: 423px;
+	height: 102px;
+	clear: both;
+}
+#sidebar {
+	float: right;
+	width: 275px;
+}
+#content {
+	float: left;
+	width: 525px;
+}
+
+#wrapper {
+	width: 800px;
+}
+.navigation {
+    font-weight: bold;
+    float: left;
+    list-style-type: none;
+    width: 138px;
+    text-align: center;
+    background-image: url("pencil.png");
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 12px;
+    margin: 4px;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.activeLink {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.activeButton {
+    font-weight: bold;
+    float: left;
+    list-style-type: none;
+    width: 138px;
+    text-align: center;
+    background-image: url("pencilRed.png");
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 12px;
+    margin: 4px;
+}
+h1 {
+	text-align: center;
+	padding-bottom: 5px;
+}
+#container{
+	height: 100px;
+	width: 200px;
+	border: solid black 2px;
+}
+
+.inner_content {
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+.articleBody, .articleMain {
+    font-family:  Georgia;
+    line-height: 22px;
+}
+
+.articleMain h1 {
+    line-height: 26px;
+}
+
+.tableHeader {
+    font-weight: bold;
+}
+
+.tableNumber {
+	text-align: right;
+}
+
+#contact {
+	text-align: center;
+	font-size: 10px;
+}
+
+#essay {
+	line-height: 1.5;
+}
+
+.caption {
+	text-align: center;
+	font-style: italic;
+	font-size: 11px;
+	
+}
+
+.inner_content img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

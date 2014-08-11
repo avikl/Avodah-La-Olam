@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Article</title>
+		<link rel="stylesheet" type="text/css" href="tabs.css" />
+		<link rel="stylesheet" type="text/css" href="all.css" />
+		<link rel="stylesheet" type="text/css" href="jquery-ui.css" />
+		<script src="jquery-1.9.1.js"></script>
+		<script src="jquery-ui.js"></script>
+	</head>
+	<body>
+		<div>
+			<br /> <img src="new_yrf_header.jpg" alt="" id="title" />
+            <p id="contact">250 West 57th Street, Suite 632 | New York, NY 10107 | Phone: 212-207-3195 | Fax: 212-207-8379 | Email: <a href="mailto:info@youthrenewalfund.org">info@youthrenewalfund.org</a></p>
+			<hr />
+		</div>
+		<div id="wrapper">
+			<div id="content">
+				<div>
+					<ul>
+						<li class="navigation"><a class="button" href="index.html">Main</a></li>
+						<li class="navigation"><a class="button" href="programs.html">Programs</a></li>
+						<li class="navigation"><a class="button" href="essay.html">Essay</a></li>
+						<li class="activeButton"><a class="activeLink" href="article.html">Article</a></li>
+						<li class="navigation"><a class="button" href="data.html">Data</a></li>
+						<li class="navigation"><a class="button" href="other.html">Other</a></li>
+					</ul>
+				</div>
+				<br />
+				<div class="inner_content">
+					<p>The following article from Haaretz explains how
+						there is a large gap in equality in Israel in terms of education.
+						Poor students are lagging 2 years behind because of their weaker
+						socioeconomic backgrounds. The article discusses the problem and
+						solutions.</p>
+					<p>This relates to the YRF because it shows that poor students
+						have a weaker education, and that it is possible to fix this.</p>
+					<p>
+						Article text: <a id="show_article" href="#">Click here</a>
+					</p>
+					<p>
+						Original article (requires registration): <a target="_blank"
+							href="http://www.haaretz.com/news/national/oecd-study-poor-israeli-students-lagging-two-years-behind-wealthy-in-math-science.premium-1.504048#.USOqmVispUI.email">http://www.haaretz.com/news/national/oecd-study-poor-israeli-students-lagging-two-years-behind-wealthy-in-math-science.premium-1.504048#.USOqmVispUI.email</a>
+					</p>
+				</div>
+			</div>
+			<div id="sidebar">
+				<img src="N_header1.jpg" class="sidepic" /> <img src="N_header2.jpg"
+					class="sidepic" /> <img src="N_header3.jpg" class="sidepic" /> <img
+					src="N_header4.jpg" class="sidepic" />
+				<p>Avodah La'Olam - Avi Kaplan-Lipkin</p>
+			</div>
+	
+			<div id="article_contents" style="display: none;"></div>
+		</div>
+		
+		      <script>
+        
+ $(function() {
+      $('#show_article').click( function() {    
+    	    $('#article_contents').load('article_text.html');
+            $( "#article_contents" ).dialog( { width: 900, height: 500 });
+          })
+  });
+  
+  </script>
+	</body>
+</html>
